@@ -9,7 +9,7 @@ import UIKit
 
 class growthViewController: UIViewController {
 
-    let growthReacts = ["☀️" : "Happy?", "☁️" : "Medium rare?", "🌧" : "No-no?"]
+    let growthReacts = ["☀️" : "That's Great!", "☁️" : "Could be worse! Try journaling.", "🌧" : "Try writing out your feelings."]
     
     @IBAction func showMessage(_ sender: UIButton) {
         
@@ -18,27 +18,27 @@ class growthViewController: UIViewController {
         
         if selectedEmoji == "☀️" {
             
-            let alertController = UIAlertController(title: "Yay", message: growthReacts["☀️"]!, preferredStyle: UIAlertController.Style.alert)
+            let alertController = UIAlertController(title: "Good!", message: growthReacts["☀️"]!, preferredStyle: UIAlertController.Style.alert)
             
-            alertController.addAction(UIAlertAction(title: "nice", style: UIAlertAction.Style.default, handler: nil))
+            alertController.addAction(UIAlertAction(title: "continue", style: UIAlertAction.Style.default, handler: nil))
             
             present(alertController, animated: true, completion: nil)
             
         }
         else if selectedEmoji == "☁️" {
             
-            let alertController = UIAlertController(title: "bruh", message: growthReacts["☁️"]!, preferredStyle: UIAlertController.Style.alert)
+            let alertController = UIAlertController(title: "Not Doing Well?", message: growthReacts["☁️"]!, preferredStyle: UIAlertController.Style.alert)
             
-            alertController.addAction(UIAlertAction(title: "ok", style: UIAlertAction.Style.default, handler: nil))
+            alertController.addAction(UIAlertAction(title: "continue", style: UIAlertAction.Style.default, handler: nil))
             
             present(alertController, animated: true, completion: nil)
             
         }
         else if selectedEmoji == "🌧" {
             
-            let alertController = UIAlertController(title: "sad", message: growthReacts["🌧"]!, preferredStyle: UIAlertController.Style.alert)
+            let alertController = UIAlertController(title: "Having a Bad Day?", message: growthReacts["🌧"]!, preferredStyle: UIAlertController.Style.alert)
             
-            alertController.addAction(UIAlertAction(title: "bad", style: UIAlertAction.Style.default, handler: nil))
+            alertController.addAction(UIAlertAction(title: "continue", style: UIAlertAction.Style.default, handler: nil))
             
             present(alertController, animated: true, completion: nil)
         }

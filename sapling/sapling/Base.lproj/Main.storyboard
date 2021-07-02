@@ -139,20 +139,30 @@
             </objects>
             <point key="canvasLocation" x="2890" y="-950"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Moments of Growth-->
         <scene sceneID="M0k-B8-aDN">
             <objects>
-                <tableViewController storyboardIdentifier="task" id="DYH-oo-1nv" sceneMemberID="viewController">
+                <tableViewController id="DYH-oo-1nv" customClass="ToDoTableViewController" customModule="sapling" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="3la-rF-Isd">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="reuseIdentifier" id="cBl-UH-0XB">
+                                <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cBl-UH-0XB" id="iVj-kS-wig">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
                         <connections>
                             <outlet property="dataSource" destination="DYH-oo-1nv" id="GXq-DG-xhh"/>
                             <outlet property="delegate" destination="DYH-oo-1nv" id="2NK-5Q-f3E"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="kna-Fk-Xxr">
+                    <navigationItem key="navigationItem" title="Moments of Growth" id="kna-Fk-Xxr">
                         <barButtonItem key="rightBarButtonItem" title="add" id="RRS-ZD-N2S">
                             <connections>
                                 <segue destination="zPo-m9-vbi" kind="show" id="3pC-J5-Vd2"/>
