@@ -16,6 +16,8 @@
 		A822158D268CB62C006C6F2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A822158B268CB62C006C6F2B /* LaunchScreen.storyboard */; };
 		A8221598268CB62C006C6F2B /* saplingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8221597268CB62C006C6F2B /* saplingTests.swift */; };
 		A82215A3268CB62C006C6F2B /* saplingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82215A2268CB62C006C6F2B /* saplingUITests.swift */; };
+		A860FFA3268E420400A0BA95 /* journalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A860FFA2268E420400A0BA95 /* journalViewController.swift */; };
+		A860FFA5268E477800A0BA95 /* journalClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A860FFA4268E477800A0BA95 /* journalClass.swift */; };
 		A8DE4FBA268E0F5100331F6C /* growthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DE4FB9268E0F5100331F6C /* growthViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		A822159E268CB62C006C6F2B /* saplingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = saplingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82215A2268CB62C006C6F2B /* saplingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saplingUITests.swift; sourceTree = "<group>"; };
 		A82215A4268CB62C006C6F2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A860FFA2268E420400A0BA95 /* journalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalViewController.swift; sourceTree = "<group>"; };
+		A860FFA4268E477800A0BA95 /* journalClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalClass.swift; sourceTree = "<group>"; };
 		A8DE4FB9268E0F5100331F6C /* growthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = growthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,12 +110,14 @@
 				A822157D268CB62B006C6F2B /* AppDelegate.swift */,
 				A822157F268CB62B006C6F2B /* SceneDelegate.swift */,
 				A8221581268CB62B006C6F2B /* ViewController.swift */,
+				A8DE4FB9268E0F5100331F6C /* growthViewController.swift */,
+				A860FFA2268E420400A0BA95 /* journalViewController.swift */,
+				A860FFA4268E477800A0BA95 /* journalClass.swift */,
 				A8221583268CB62B006C6F2B /* Main.storyboard */,
 				A8221589268CB62C006C6F2B /* Assets.xcassets */,
 				A822158B268CB62C006C6F2B /* LaunchScreen.storyboard */,
 				A822158E268CB62C006C6F2B /* Info.plist */,
 				A8221586268CB62B006C6F2B /* sapling.xcdatamodeld */,
-				A8DE4FB9268E0F5100331F6C /* growthViewController.swift */,
 			);
 			path = sapling;
 			sourceTree = "<group>";
@@ -268,6 +274,8 @@
 				A8DE4FBA268E0F5100331F6C /* growthViewController.swift in Sources */,
 				A822157E268CB62B006C6F2B /* AppDelegate.swift in Sources */,
 				A8221588268CB62B006C6F2B /* sapling.xcdatamodeld in Sources */,
+				A860FFA3268E420400A0BA95 /* journalViewController.swift in Sources */,
+				A860FFA5268E477800A0BA95 /* journalClass.swift in Sources */,
 				A8221580268CB62B006C6F2B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
